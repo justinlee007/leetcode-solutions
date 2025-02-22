@@ -1,6 +1,6 @@
 package addtwonumbers;
 
-class Solution {
+class JavaSolution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode sumNode = null;
         ListNode currentNode = null;
@@ -11,10 +11,10 @@ class Solution {
         do {
             int currentSum = 0;
             if (currentL1Node != null) {
-                currentSum += currentL1Node.val;
+                currentSum += currentL1Node.value;
             }
             if (currentL2Node != null) {
-                currentSum += currentL2Node.val;
+                currentSum += currentL2Node.value;
             }
             if (carryOver) {
                 currentSum++;
@@ -45,7 +45,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        JavaSolution solution = new JavaSolution();
 
         // Test case 1
         ListNode l1 = new ListNode(2);

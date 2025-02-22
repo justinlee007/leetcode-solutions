@@ -1,6 +1,6 @@
 package twosum;
 
-public class Solution {
+public class JavaSolution {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length < 2) {
             throw new IllegalStateException("nums is null or two small");
@@ -21,7 +21,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        JavaSolution solution = new JavaSolution();
 
         // Test case 1
         int[] nums1 = {2, 7, 11, 15};
