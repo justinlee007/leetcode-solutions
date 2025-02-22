@@ -2,9 +2,8 @@
 
 **Problem:** [Link to the LeetCode problem](https://leetcode.com/problems/two-sum/)
 
-**Solution:**
-
-This Java solution uses a pointer to iterate through the array.
+**Solution:** This Java solution uses a pointer to iterate through the array. This is not the most efficient way to
+solve the problem.
 
 **Time Complexity:** O(n^2)
 
