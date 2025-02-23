@@ -1,10 +1,9 @@
 # Add Two Numbers
 
-**Problem:** [Link to the LeetCode problem](https://leetcode.com/problems/add-two-numbers/) 
+**Problem:** [Link to the LeetCode problem](https://leetcode.com/problems/add-two-numbers/)
 
-Given two non-empty linked lists representing two non-negative integers, add the two numbers and return the sum as a linked list. The digits are stored in reverse order, and each of their nodes contains a single digit. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-
-**Solution:** This Java solution iterates through both linked lists, adding corresponding digits and managing carry-over values. The result is stored in a new linked list.
+**Solution:** This Java solution iterates through both linked lists, adding corresponding digits and managing carry-over
+values. The result is stored in a new linked list.
 
 **Time Complexity:** O(n), where n is the length of the longer linked list.
 
